@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2902a1a6.css",
+    "main.js": "/static/js/main.69c6c7f2.js",
+    "static/js/453.05ba9432.chunk.js": "/static/js/453.05ba9432.chunk.js",
+    "static/media/Unggulan3.png": "/static/media/Unggulan3.384dd4c0fe303b8bdf79.png",
+    "static/media/Banner.png": "/static/media/Banner.ac8f590259f506efd68e.png",
+    "static/media/Unggulan1.png": "/static/media/Unggulan1.579621396947ee9be70d.png",
+    "static/media/Unggulan2.png": "/static/media/Unggulan2.d1c5da598e02a37b2d97.png",
+    "static/media/Bank BCA.png": "/static/media/Bank BCA.78a35049b07abb5fb37d.png",
+    "index.html": "/index.html",
+    "main.2902a1a6.css.map": "/static/css/main.2902a1a6.css.map",
+    "main.69c6c7f2.js.map": "/static/js/main.69c6c7f2.js.map",
+    "453.05ba9432.chunk.js.map": "/static/js/453.05ba9432.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2902a1a6.css",
+    "static/js/main.69c6c7f2.js"
+  ]
+}

@@ -1,0 +1,47 @@
+.orders {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+    overflow-y: auto;
+  }
+  
+  .orders h2 {
+    color: #2f662f;
+    margin-bottom: 20px;
+  }
+  
+  .monthly-orders {
+    margin-bottom: 40px;
+  }
+  
+  .monthly-orders h3 {
+    background-color: #a8d1a8;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+    background-color: #e0e0e0;
+  }
+  
+  tfoot tr {
+    background-color: #e0e0e0;
+}

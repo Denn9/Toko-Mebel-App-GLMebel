@@ -1,0 +1,62 @@
+
+  
+  .Selamat-Dashboard{
+    font-size: 16px;
+    background-color: #E0FBE2;
+    padding: 10px; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    display: inline-block; 
+    border-radius: 5px;
+    width: 550px;
+  }
+  .h2Produk{
+    font-weight: bold;
+    color: #799351;
+  }
+
+  
+  main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  
+  .welcome-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+
+  .Halaman-Produk-pelanggan {
+   
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .Halaman-Produk-pelanggan {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    justify-items: center; 
+    padding: 5px;
+    font-weight: bold;
+    color: #799351;
+    font-style: italic;
+  }
+  
+  .Halaman-Produk-pelanggan {
+    border: none;
+    width: 300px;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  
+
+  
+  
+  
+ 

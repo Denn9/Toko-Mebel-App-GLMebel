@@ -1,0 +1,62 @@
+.Halaman-caraorder-pelanggan {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .CaraOrder {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .cara-pesan {
+    text-align: left;
+   
+    font-size: 24px; 
+    margin-bottom: 20px;
+  }
+  
+  .cara-pesan img {
+    margin-left: 10px;
+  }
+  
+  .CaraOrder ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+  }
+  
+  .CaraOrder li {
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 16px; 
+  }
+  
+  .perusahaan-cargo {
+    list-style-type: decimal; 
+    padding-left: 20px;
+    margin-top: 10px;
+    font-size: 16px; 
+  }
+  
+  .bank-pembayaran {
+    list-style-type: decimal; 
+    padding-left: 20px;
+    margin-top: 10px;
+    font-size: 16px; 
+  }
+  
+  
+    .CaraOrder ul {
+      padding: 0 15px;
+    }
+  
+    .CaraOrder li {
+      font-size: 14px;
+    }
+  
+    .perusahaan-cargo, .bank-pembayaran {
+      font-size: 14px; 
+    }
+  
+  

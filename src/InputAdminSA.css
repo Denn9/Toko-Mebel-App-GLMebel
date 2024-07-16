@@ -1,0 +1,152 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #e0fbe2;
+  }
+  
+  .logo {
+    width: 150px;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logout-button {
+    background-color: #789763;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  
+  .logout-button:hover {
+    background-color: #6b8b57;
+  }
+  
+  .user-info {
+    color: #789763;
+    margin-right: 10px;
+  }
+  
+  .dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: #789763;
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 90px;
+  }
+  
+  .sidebar {
+    width: 277px;
+    height: 453px;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .sidebar h3 {
+    margin-top: 0;
+    font-style: italic;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin: 10px 0;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .sidebar li:hover {
+    text-decoration: underline;
+  }
+  
+  .main-content {
+    width: 806px;
+    height: 459px;
+  }
+  
+  .main-content h3 {
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .input-group label {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input[type="text"],
+  .input-group input[type="file"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .bintang {
+    color: #e20000;
+    margin-left: 2px;
+  }
+  
+  button {
+    background-color: #e0fbe2;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+  }
+  
+  button:hover {
+    background-color: #8fae8d;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit; /* Optional: ensures the link inherits the color from its parent */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Optional: adds underline on hover if desired */
+}

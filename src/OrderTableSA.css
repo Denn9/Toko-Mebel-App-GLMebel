@@ -1,0 +1,39 @@
+.order-table {
+    margin-top: 20px;
+  }
+  
+  .order-table .MuiTypography-root {
+    margin-bottom: 20px;
+  }
+  
+  .order-table-container {
+    max-height: 600px; 
+    overflow-y: auto;
+  }
+  
+  .order-table .MuiTableCell-root {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .order-table .MuiTableCell-head {
+    background-color: #8D9F75; 
+    color: white; 
+    font-weight: bold;
+  }
+  
+  .order-table .MuiTableRow-root:nth-of-type(odd) {
+    background-color: #f5f5f5; 
+  }
+  
+  .order-table .MuiTableRow-root:hover {
+    background-color: #d0e0d8; 
+  }
+  
+  .order-table .item-count {
+    font-weight: bold;
+    background-color: #8D9F75; 
+    color: white;
+    border-radius: 4px;
+    padding:2px 8px;
+}

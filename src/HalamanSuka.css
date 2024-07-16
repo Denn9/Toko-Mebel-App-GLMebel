@@ -1,0 +1,149 @@
+/* HalamanSuka.css */
+
+#HalamanSuka {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+  }
+  
+  .HalamanSuka {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .Anda-HalamanSuka {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    
+  }
+  
+  .action-button {
+    background-color: rgba(224, 251, 226, 0.7);
+    color: #799351;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .action-button:hover {
+    background-color: #fff;
+  }
+  .Halaman-Suka {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .cart-HalamanSuka {
+    width: 100%;
+    max-width: 1000px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #799351;
+    color: #fff;
+    font-style: italic;
+    font-family: 'Inter', sans-serif;
+ 
+  }
+  
+  .cart-item-HalamanSuka {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .item-labels-HalamanSuka {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+  .label-HalamanSuka {
+    font-weight: bold;
+    width: 25%;
+    text-align: center;
+  }
+  
+  .item-details-HalamanSuka {
+    display: flex;
+    width: 105%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin-bottom: 10px;
+  }
+  
+  .detaaill-HalamanSuka {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 20px;
+    margin-top: 30;
+    background-color: rgba(224, 251, 226, 0.4);
+  }
+  
+  .detaaill-HalamanSuka img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 40px;
+    margin-left: 10PX;
+  }
+  
+  .details-HalamanSuka {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .item-name-HalamanSuka {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .item-price-HalamanSuka,
+  .item-subtotal-HalamanSuka {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .item-quantity-HalamanSuka {
+    display: flex;
+    align-items: center;
+  }
+  
+  .item-quantity-HalamanSuka button {
+    width: 30px;
+    height: 30px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .item-quantity-HalamanSuka input {
+    width: 40px;
+    text-align: center;
+    margin: 0 5px;
+  }
+  
+  .plus, .minus {
+    padding: 5px;
+  }
+  
+  

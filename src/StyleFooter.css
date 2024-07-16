@@ -1,0 +1,17 @@
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    width: 23%;
+  }
+   h1{
+    margin-left: 100px;
+   }
+
+   .logo_pembayaran{
+    
+   }

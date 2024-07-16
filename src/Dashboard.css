@@ -1,0 +1,148 @@
+
+  
+  .Selamat-Dashboard{
+    font-size: 16px;
+    background-color: #E0FBE2;
+    padding: 10px; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    display: inline-block; 
+    border-radius: 5px;
+    width: 550px;
+  }
+
+  .R{
+    margin-left: 100px;
+  }
+  
+  main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .banner{
+   height: auto;
+   width: 100%;
+  }
+  
+  .welcome-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .unggulan {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .unggulann {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+  }
+  .unggulan1 {
+   
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .product-Dashboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    justify-items: center; 
+    padding: 10px;
+  }
+  
+  .product-dashboard {
+    border: none;
+    width: 300px;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .image-Dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-left: 30px;
+  }
+
+  .h4Produk1{
+    font-weight: bold;
+    color: #799351;
+  }
+  
+  
+  
+ 
+
+  .logo2{
+    margin-left: 10px;
+    margin-top: 40px;
+    width: 600px;
+    height: 40px;
+  }
+
+  
+  
+  .hot-product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .hot-product-card {
+    flex: 1 0 calc(33.33% - 20px); 
+    max-width: calc(33.33% - 20px); 
+  }
+  @media (max-width: 768px) {
+    .hot-product-card {
+      flex-basis: calc(50% - 20px); 
+      max-width: calc(50% - 20px); 
+    }
+  }
+  
+  .hot-product-card {
+    display: flex;
+    border:none;
+    border-radius: 8px;
+   
+    
+    background: none;
+  }
+  
+  .hot-product-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .hot-product-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .hot-product-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .hot-product-details h3 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .hot-product-details p {
+    margin: 5px 0;
+    color: #555;
+  }
+  

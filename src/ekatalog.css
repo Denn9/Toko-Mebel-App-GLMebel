@@ -1,0 +1,35 @@
+
+  
+  .welcome-text {
+    font-size: 16px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .product-card {
+    border: 2px solid #799351;
+    border-radius: 3px;
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+  }
+  
+  .product-image {
+    width: 70%;
+    height: auto;
+    align-items: center;
+  }
+  
+  

@@ -1,0 +1,19 @@
+.content {
+    padding: 20px;
+    flex-grow: 1;
+  }
+  
+  .status-box {
+    background-color: #697a55;
+    padding: 20px;
+    color: white;
+  }
+  
+  .status-button {
+    margin: 10px;
+    padding: 10px;
+    background-color: #e8f5e9;
+    color: #697a55;
+    border: none;
+    cursor: pointer;
+}

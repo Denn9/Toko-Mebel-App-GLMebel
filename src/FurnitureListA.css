@@ -1,0 +1,73 @@
+.furniture-list {
+    flex-grow: 1;
+    padding: 20px;
+    position: relative; 
+}
+
+.furniture-table {
+    display: flex;
+    flex-direction: column;
+}
+
+.furniture-item {
+    display: flex;
+    background-color: #a5c7a5;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.furniture-photo {
+    width: 100px;
+    height: 100px;
+    
+    margin-right: 20px;
+}
+
+.furniture-info {
+    flex-grow: 1;
+}
+
+.furniture-info h3 {
+    margin: 0;
+}
+
+.furniture-info p {
+    margin: 5px 0;
+}
+
+.furniture-actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.furniture-actions button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.furniture-actions button:nth-child(2) {
+    background-color: #f44336;
+}
+
+.back-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.back-button:hover {
+    background-color: #45a049;
+}
